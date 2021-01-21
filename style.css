@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f3f4f8;
+    color: #374049;
+}
+
+.myContainer-fluid{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 10px 1px 10px rgba(0,0,0,0.06);
+}
+
+.myContainer-fluid .navbar{
+    position: relative;
+}
+
+.title-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 16px;
+    color: #374049;
+    text-align: center;
+    font-family: 'Poppins', monospace;
+}
+
+.myContainer-fluid .navbar .profile-wrap{
+    padding: 25px;
+    text-align: center;
+}
+
+.myContainer-fluid .navbar .profile-wrap .profile-img{
+    width: 135px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.myContainer-fluid .navbar .profile-wrap .profile-img img{
+    width: 100%;
+}
+
+.myContainer-fluid .navbar .profile-wrap .profile-info .name{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #30373f;
+}
+
+.myContainer-fluid .navbar .profile-wrap .profile-info .role{
+    font-weight: 600;
+    font-size: 15px;
+    color: #90959b;
+}
+
+.myContainer-fluid .navbar ul{
+    padding: 10px 40px;
+}
+
+.myContainer-fluid .navbar ul li > a{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    padding: 15px;
+    height: 50px;
+    color: #9ca0a5;
+    font-weight: 600;
+    transition: all .1s ease;
+}
+
+.myContainer-fluid .navbar ul li a .icon{
+    margin-right: 10px;
+}
+
+.myContainer-fluid .navbar ul li a > span{
+    display: inline-block;
+}
+
+a.active .icon, a:hover .icon{
+    color: #d41010;
+}
+
+a.active .title-2, a:hover .title-2{
+    color: #374049;
+    font-weight: 800;
+}
+
+
+
